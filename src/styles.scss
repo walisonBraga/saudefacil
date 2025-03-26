@@ -1,4 +1,172 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* Modo Escuro */
+.dark-mode {
+  background-color: #121212 !important;
+  color: white !important;
+}
+
+/* Estilo do Card no Modo Escuro */
+.dark-mode .bg-body-tertiary {
+  background-color: #1e1e1e !important;
+  color: white !important; /* Cor do texto no card */
+}
+
+/* Estilo do Formulário */
+.dark-mode .form-control {
+  background-color: #333 !important; /* Fundo escuro para inputs */
+  color: white !important; /* Cor do texto dos inputs */
+}
+
+/* Estilo do botão de envio no Modo Escuro */
+.dark-mode .btn-primary {
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+}
+
+.dark-mode .btn-outline-dark {
+  background-color: white !important;
+  color: black !important;
+}
+
+.dark-mode .btn-outline-dark:hover {
+  background-color: #ddd !important;
+}
+
+/* Títulos e textos do formulário */
+.dark-mode h2,
+.dark-mode p {
+  color: white !important;
+}
+
+/* Alterando as cores dos ícones e textos */
+.dark-mode .bi {
+  color: white !important; /* Cor dos ícones no modo escuro */
+}
+
+.dark-mode .text-muted {
+  color: #bbb !important; /* Cor dos textos secundários no modo escuro */
+}

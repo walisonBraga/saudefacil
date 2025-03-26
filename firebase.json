@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "site": "saudefacil",
+    "public": "dist/saudefacil/browser",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
